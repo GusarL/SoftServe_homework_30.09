@@ -1,0 +1,27 @@
+#timeButton {
+  position: absolute;
+  top: 40%; 
+  left: 40%;
+  width: 200px;
+  height: 100px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#timeButton:hover {background-color: #3e8e41}
+
+#timeButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
